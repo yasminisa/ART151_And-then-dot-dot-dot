@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>And then . . .</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+    </head>
+    <body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">ART 151</h2>  
+      <div class="toggle"></div>
+    </header>
+    <video src="landingpage.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+        <h1>And I leave that to you</h1>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+        <li><a href="rules.html">HOW TO PLAY</a></li>
+        <br>
+        <li><a href="welcomeToHell.html">TRIP TO HELL</a></li>
+        <li><a href="#">GRAVITY OF A FALLEN SNOWFLAKE</a></li>
+        <li><a href="#">MR. SLICK</a></li>
+        <li><a href="#">THE FRAME OF GARBAGE</a></li>
+        <li><a href="#">32 CORIANDER</a></li>
+        <li><a href="#">HUMMING SPOON</a></li>
+        <li><a href="#">SOAP FAÇADE</a></li>
+    </ul>
+  </div>
+
+  <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click', ()=> {
+          menuToggle.classList.toggle('active')
+          showcase.classList.toggle('active')
+
+      })
+  </script>>
+ </body>
+</html>
